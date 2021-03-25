@@ -1,0 +1,68 @@
+{
+    "list" : [
+        {
+            "user" : "Name of the user that should recieve the notification",
+            "case" : "The case that the desired tradeup should take place in",
+            "inputs" : [
+                {
+                    "Wear" : "Type of wear rating | Ex: Well-Worn",
+                    "priority" : "null -> disable | normal | elevated | insane",
+                    "targetFloat" : "Ideal float value",
+                    "float" : "Float to notify",
+                    "price" : "Price target",
+                    "skins" : [
+                        {
+                            "name" : "Exact name of the desired skin",
+                            "url" : "Url to that skin"
+                        },
+                        {
+                            "name" : "",
+                            "url" : ""
+                        },
+                        {
+                            "name" : "",
+                            "url" : ""
+                        },
+                        {
+                            "name" : "",
+                            "url" : ""
+                        },
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                },
+                {
+                    "Wear" : "",
+                    "priority" : "null",
+                    "targetFloat" : "",
+                    "float" : "",
+                    "price" : "",
+                    "skins" : [
+                        {
+                            "name" : "",
+                            "url" : ""
+                        },
+                        {
+                            "name" : "",
+                            "url" : ""
+                        },
+                        {
+                            "name" : "",
+                            "url" : ""
+                        },
+                        {
+                            "name" : "",
+                            "url" : ""
+                        },
+                        {
+                            "name" : "",
+                            "url" : ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
