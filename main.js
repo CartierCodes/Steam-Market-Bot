@@ -16,9 +16,6 @@ let browser = "";
 let page = "";
 let p1Float = "";
 let p2Float = "";
-let p3Float = "";
-let p4Float = "";
-let p5Float = "";
 let vpnCount = 1;
 let pages = [];
 
@@ -61,12 +58,6 @@ async function start() {
                                 console.log(chalk.cyanBright(itemData.list[i].inputs[j].skins[k].name + " Float: " + results[r].float + " Price: " + results[r].price + "\n"));
                                 if (results[r].float === p1Float) { continue; }
                                 if (results[r].float === p2Float) { continue; }
-                                if (results[r].float === p3Float) { continue; }
-                                if (results[r].float === p4Float) { continue; }
-                                if (results[r].float === p5Float) { continue; }
-                                p5Float = p4Float
-                                p4Float = p3Float
-                                p3Float = p2Float;
                                 p2Float = p1Float;
                                 p1Float = results[r].float;
                                 await alertUser(i, j, k, r);
